@@ -1,0 +1,138 @@
+#bdy{
+    margin: 0;
+}
+
+#intro{
+    background-color: #3c9ad1;
+    height: 87vh;
+    margin: 0;
+}
+#contenidos{
+    background-color: #58b3dd;
+    margin-top:0; 
+    margin-bottom:0;
+}
+ul, h3{
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+#trayectoria{
+    background-color: #75cce8;
+    height: 100vh;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+#experiencia{
+    background-color: #91e5f4;
+    margin-top: 0; 
+    margin-bottom: 0;    
+}
+#dato_cur{
+    background-color: #adfeff;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+h1,h2 {
+    font-family: "Playfair Display", serif;
+    color: lightgray;
+    text-align: center;
+    
+}
+
+.item {
+    background-color: lightcyan;
+    width: fit-content;
+
+}
+
+.table{
+     border-collapse: collapse;
+}
+
+th,td{
+    border: 10px solid #75cce8;
+}
+
+.texto{
+    text-align: justify;
+    vertical-align: top;
+}
+/*Hover cambia el color de fondo cuando pasas el cursos encima*/
+.Generation:hover {background-color: #ddb18e;}
+.Notts:hover {background-color: #e8caa7;}
+.UNAM:hover {background-color: #f4e3bf;}
+.UAM:hover {background-color:#fffcd7}
+
+.img-edu{
+    text-align: center;
+}
+
+.sobre_mi{
+    font-family: "Alkatra", system-ui;
+}
+
+.grid-container {
+    display: grid;
+    /*grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;*/
+
+}
+
+.grid-container div{
+    text-align: center;
+    padding: 5px;
+    vertical-align: top;
+    
+}
+.imgs{
+    grid-row: 2;
+    grid-column: 1/span 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+}
+
+.item{
+    background-color: #ede8fd;
+    border: 5px dotted #f08cc5;
+}
+
+.item1{
+    grid-area: 1/1/1/1;
+}
+.item2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.item3{
+    grid-row: 1;
+    grid-column: 3;
+}
+/*No pude hacer que la última fila se dividiera en sólo dos columnas :( */
+.item4{
+    grid-row: 3;
+    grid-column: span 1;
+    /*grid-column: 1, span 1;
+    grid-column: 1;
+    grid-column: 1/ 2;*/
+}
+.item5{
+    grid-row: 3;
+    align-content: left;
+    grid-column: span 1;
+    /*grid-column: 2, span 1;
+    grid-column: 2;
+    grid-column: 2,3;
+    grid-column: 3;*/
+}
+
+.datoc{
+    text-align: center;
+}
+
+.datoc-img{
+    position: relative;
+    left: 500px;
+}
